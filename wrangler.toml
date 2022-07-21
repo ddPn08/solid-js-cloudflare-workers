@@ -1,0 +1,8 @@
+name = "ssr"
+main = "dist/index.js"
+compatibility_date = "2022-07-20"
+
+[site]
+bucket = "./dist"
+[build]
+command = "yarn build"
